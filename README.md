@@ -7,6 +7,12 @@ my tools
 Slice tool
 ==========
 shortcut -> C
+show dimensions -> select tool and press f8 
+Shift + K –> Toggle Slice / Slice Select Tools
+
+View font information in PS
+============================
+Window > Character
 
 Links
 =====
@@ -17,7 +23,62 @@ Links
 - http://www.youtube.com/watch?v=8pQE3T9z_0g
 - http://sixrevisions.com/web_design/the-960-grid-system-made-easy/
 - http://www.youtube.com/watch?v=aU5VpTWNczU
+- http://www.ehow.com/how_7234136_slice-photoshop-file.html
+- http://css-discuss.incutio.com/wiki/Absolute_Or_Float_Layout
 
+Rounded Corners
+================
+- http://www.devinrolsen.com/rounded-corners-with-css-and-one-image/
+- http://jonraasch.com/blog/css-rounded-corners-in-all-browsers
+- http://css3pie.com/
 
+CSS Prefixers
+=============
+- http://prefixr.com/
+- http://cssprefixer.appspot.com/
 
+Inline-block
+============
+- http://blog.mozilla.org/webdev/2009/02/20/cross-browser-inline-block/
 
+Css box-sizing
+===============
+- http://paulirish.com/2012/box-sizing-border-box-ftw/
+- http://html5please.com/#box-sizing
+
+IE6&7 Polyfill
+- https://github.com/Schepp/box-sizing-polyfill
+
+PS Measuring
+=============
+- http://sixrevisions.com/photoshop/9-photoshop-editing-tips-web-developers-should-know/
+- http://www.hscripts.com/tutorials/photoshop/measure.php
+
+Css Helpers
+===========
+- http://css-tricks.com/snippets/
+
+CSS properties
+==============
+- https://developer.mozilla.org/en-US/docs/CSS/background-position
+
+Clearing slices
+===============
+- http://www.photoshopgurus.com/forum/general-photoshop-board/492-removing-slices.html
+
+Save a layer as image
+=====================
+- http://superuser.com/questions/276293/export-a-single-layer-as-an-image-in-photoshop
+- http://graphicdesign.stackexchange.com/questions/1961/export-photoshop-layers-to-individual-png-files-batch-process
+
+Finding Layers
+==============
+- http://www.gomediazine.com/tutorials/photoshop-quick-tip-finding-layers-quickly/#.UMldnW--2uI
+
+Show all tools in PS
+=====================
+- http://answers.yahoo.com/question/index?qid=20100713234110AAzHOvg
+
+PS Shortcuts
+============
+- http://www.hongkiat.com/blog/keyboard-shortcut-for-photoshop-cs2-toolsbox/
