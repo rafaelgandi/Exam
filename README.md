@@ -14,6 +14,12 @@ View font information in PS
 ============================
 Window > Character
 
+Copy slice
+===========
+- Choose slice select tools then select slice you want to copy then press alt while
+  dragging the slice.
+
+
 Links
 =====
 - http://www.youtube.com/watch?v=DVfxe4pqvo8
@@ -25,6 +31,7 @@ Links
 - http://www.youtube.com/watch?v=aU5VpTWNczU
 - http://www.ehow.com/how_7234136_slice-photoshop-file.html
 - http://css-discuss.incutio.com/wiki/Absolute_Or_Float_Layout
+- http://css3gen.com/box-shadow/   <-- box shadow generator
 
 Rounded Corners
 ================
