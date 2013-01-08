@@ -6,9 +6,9 @@ my tools
 
 Slice tool
 ==========
-shortcut -> C
-show dimensions -> select tool and press f8 
-Shift + K –> Toggle Slice / Slice Select Tools
+shortcut -> C <br>
+show dimensions -> select tool and press f8   <br>
+Shift + K –> Toggle Slice / Slice Select Tools <br>
 
 View font information in PS
 ============================
