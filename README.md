@@ -18,6 +18,15 @@ Copy slice
 ===========
 - Choose slice select tools then select slice you want to copy then press alt while
   dragging the slice.
+  
+Notepad++ Autocompletion
+=========================
+Go to 'Settings' -> 'Preferences...' -> 'Backup/Auto-Completion'
+
+CSS font shorthand
+===================
+http://www.impressivewebs.com/css-font-shorthand-property-cheat-sheet/
+<code>font: font-style font-variant font-weight font-size/line-height font-family;</code>
 
 
 Links
