@@ -23,6 +23,10 @@ Notepad++ Autocompletion
 =========================
 Go to 'Settings' -> 'Preferences...' -> 'Backup/Auto-Completion'
 
+CSS3 Generator
+===============
+http://css3generator.com/
+
 CSS font shorthand
 ===================
 http://www.impressivewebs.com/css-font-shorthand-property-cheat-sheet/
