@@ -26,6 +26,11 @@ Go to 'Settings' -> 'Preferences...' -> 'Backup/Auto-Completion'
 CSS3 Generator
 ===============
 http://css3generator.com/
+http://www.cssportal.com/css3-box-shadow-generator/
+
+CSS Pie Features
+=================
+http://css3pie.com/documentation/supported-css3-features/
 
 CSS font shorthand
 ===================

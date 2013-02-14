@@ -37,7 +37,7 @@ a:link { outline: none; }
 }
 .inline {display: inline;}
 .block {display: block;}
-.clear {clear:both; font-size:0; height:0px; line-height:0;}
+.clear, .clr {clear:both; font-size:0; height:0px; line-height:0;}
 .left {float: left !important;}
 .right {float: right !important;}
 .inline_block {
@@ -61,19 +61,33 @@ body {
 	padding:0;
 	position: relative;
 	/* background: url("../images/SOME_IMAGE.JPG") repeat-x bottom #fff; */
-	background-color: #D0D9E8;
+	/* background-color: #C3D2E5; */
+	background-color: #CFDBE9;
+	overflow-x: hidden; /* Needed for IE, so that the horizontal scrollbar won't show if box-shadow is used. */
 }
 a, a:active, a:visited, a:link {}
 a:hover {}
+nav ul {
+	margin:0;
+	padding:0;			
+	list-style: none;
+}
+	nav li { float: left; }
+	nav a { text-decoration: none; }
 
+	
+
+	
+	
+	
 header {
 	border-top: 5px solid #3C5879;
 	width: 100%;
 	background: url("../images/header_gradient_bg.jpg") repeat-x scroll center bottom #EDEEF3;
 	min-height: 274px;
-	-webkit-box-shadow:  0px 20px 30px 5px #999;
-	-moz-box-shadow:  0px 20px 30px 5px #999;
-    box-shadow:  0px 20px 30px 5px #999;
+	-webkit-box-shadow:  0px 20px 30px 5px #8C93A3;
+	-moz-box-shadow:  0px 20px 30px 5px #8C93A3;
+    box-shadow:  0px 20px 30px 5px #8C93A3;
 }
 .oldie header {
 	position: relative;
@@ -85,9 +99,22 @@ header {
 		width: 970px;		
 	}
 		#banner {
-			background: url("../images/banner_bg2.png") no-repeat scroll center;
-			min-height: 244px;
+			background: url("../images/banner_jud.png") no-repeat scroll center top;
+			min-height: 228px;
+			position: relative;
+			padding: 25px 40px;
 		}
+		.ie8 #banner {
+			min-height: 200px;
+		}
+			#logo {
+				border:0;
+			}
+			#tel {
+				position: absolute;
+				right: 28px;
+				top: 15px;
+			}
 		#header_below_shadow {
 			background: url("../images/banner_below_shadow.jpg") no-repeat scroll center transparent;
 			height: 70px;
@@ -105,12 +132,58 @@ header {
 		
 	}
 		#main_nav_con {
-			background: url("../images/main_menu_con_bg.png") no-repeat scroll center transparent;
-			min-height: 70px;
+			background: url("../images/x1.jpg") no-repeat scroll center bottom transparent;
+			min-height: 76px;
+			padding-left: 31px;
+			width: 989px;
 		}
-
-
-
+			#main_nav_con li ul {
+				display: block;
+				margin: 0 auto;
+			}
+			#main_nav_con li {				
+				margin: 3px 2px 0 0;
+			}			
+				#main_nav_con li a {
+					background: url("../images/menu_off.png") repeat-x scroll center #17315C;
+					display: block;
+					color: #F1E424;
+					padding: 8px 20px;
+					text-decoration: none;
+					font: bold 18px "Myriad Pro";
+					line-height: 20.83px;					
+					-webkit-border-radius: 0px 0px 8px 8px;
+					border-radius: 0px 0px 8px 8px;
+					box-shadow:0px 3px 22px #333;
+				}
+				.oldie #main_nav_con li a {
+					position: relative;
+					behavior: url(css/PIE.htc);
+				}
+				#main_nav_con li a:hover,
+				#main_nav_con li a.on {
+					background: url("../images/menu_on.png") repeat-x scroll center #F1E424;
+					color: #17315C;
+				}
+		#main_content_con {
+			margin: 0 auto;			
+			width: 967px;
+			padding:0;
+			position: relative;
+		}
+			#main_con_wrapper {
+				width: 654px;
+				background: url("../images/x3.jpg") no-repeat scroll right top #fff;
+				min-height:1000px
+			}
+				#main_content {
+					padding: 10px 20px;
+				}
+			aside {
+				background: url("../images/x2.jpg") no-repeat scroll top #CFDBE9;
+				width: 313px;
+				min-height:571px;
+			}
 
 
 
