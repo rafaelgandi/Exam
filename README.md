@@ -25,8 +25,10 @@ Go to 'Settings' -> 'Preferences...' -> 'Backup/Auto-Completion'
 
 CSS3 Generator
 ===============
-http://css3generator.com/
-http://www.cssportal.com/css3-box-shadow-generator/
+- http://css3generator.com/
+- http://www.cssportal.com/css3-box-shadow-generator/
+- http://gradients.glrzad.com/
+- http://www.colorzilla.com/gradient-editor/
 
 CSS Pie Features
 =================

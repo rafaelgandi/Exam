@@ -60,10 +60,9 @@ body {
 	margin:0;
 	padding:0;
 	position: relative;
-	/* background: url("../images/SOME_IMAGE.JPG") repeat-x bottom #fff; */
-	/* background-color: #C3D2E5; */
 	background-color: #CFDBE9;
 	overflow-x: hidden; /* Needed for IE, so that the horizontal scrollbar won't show if box-shadow is used. */
+	color: #393A3A;
 }
 a, a:active, a:visited, a:link {}
 a:hover {}
@@ -75,11 +74,16 @@ nav ul {
 	nav li { float: left; }
 	nav a { text-decoration: none; }
 
-	
-
-	
-	
-	
+/* Old IE(6,7,8) css pie hack. */
+.oldie body,
+.oldie header,
+.oldie #main_nav_con li a,
+.oldie #search,
+.oldie #newsletter_form h1,
+.oldie #newsletter_form button {
+	position: relative;
+	behavior: url(css/PIE.htc);
+}		
 header {
 	border-top: 5px solid #3C5879;
 	width: 100%;
@@ -89,11 +93,6 @@ header {
 	-moz-box-shadow:  0px 20px 30px 5px #8C93A3;
     box-shadow:  0px 20px 30px 5px #8C93A3;
 }
-.oldie header {
-	position: relative;
-	behavior: url(css/PIE.htc);
-}
-
 	#banner_con,  #wrapper {
 		margin: 0 auto;
 		width: 970px;		
@@ -155,11 +154,7 @@ header {
 					-webkit-border-radius: 0px 0px 8px 8px;
 					border-radius: 0px 0px 8px 8px;
 					box-shadow:0px 3px 22px #333;
-				}
-				.oldie #main_nav_con li a {
-					position: relative;
-					behavior: url(css/PIE.htc);
-				}
+				}				
 				#main_nav_con li a:hover,
 				#main_nav_con li a.on {
 					background: url("../images/menu_on.png") repeat-x scroll center #F1E424;
@@ -174,7 +169,7 @@ header {
 			#main_con_wrapper {
 				width: 654px;
 				background: url("../images/x3.jpg") no-repeat scroll right top #fff;
-				min-height:1000px
+				min-height:1000px;				
 			}
 				#main_content {
 					padding: 10px 20px;
@@ -183,11 +178,115 @@ header {
 				background: url("../images/x2.jpg") no-repeat scroll top #CFDBE9;
 				width: 313px;
 				min-height:571px;
+				padding: 14px 20px 20px 37px;
 			}
-
-
-
-
+				#search {
+					width: 227px;					
+					margin-bottom: 10px;
+					background: url("../images/search_botton_bg.png") repeat-x scroll center #D9E0EA;
+					border: 1px solid #163058;
+					border-radius: 5px;
+					display: block;
+					position: relative;
+					color: #161616;
+					font: bold italic 14px "Myriad Pro";
+					line-height: 7px;
+					padding: 10px;
+					vertical-align: middle;
+				}
+					#search img {
+						position: absolute;
+						top: -14px;
+						left: 10px;
+					}
+					.ie8 #search img {
+						z-index:20;
+					}
+				a.sidebar_links {
+					background: url("../images/sidebar_button_bg.jpg") repeat-x scroll center transparent;
+					color: #EFE323;
+					display: block;
+					font: 14px/7px "Myriad Pro";
+					padding: 23px 17px 17px;
+					text-align: center;
+					text-decoration: none;
+					vertical-align: middle;
+					width: 226px;
+					height: 43px;
+				}
+				#natgeo_tv {
+					margin-top: 33px;
+				}
+				#newsletter_form {
+					display: block;
+					width: 239px;
+					height: 212px;
+					background: url("../images/form_box_bg.jpg") repeat-x scroll center top transparent;
+					padding: 10px;
+					font: normal 14px/7px "Myriad Pro";
+					margin-top: 30px;
+					margin-left: 5px; 
+				}
+					#newsletter_form h1 {
+						font-weight: normal;
+						font-size: 14px;
+						color: #EFE323;
+						background-color: #18335E;
+						padding: 11px;
+						text-align: center;
+						margin-bottom: 8px;
+						-moz-box-shadow: 1px 4px 4px #333;
+						-webkit-box-shadow: 1px 4px 4px #333;
+						box-shadow: 1px 4px 4px #333
+					}
+					#newsletter_form table {
+						width: 100%;
+					}
+						#newsletter_form table img {
+							margin-top: 8px;
+							margin-left: 10px;
+						}
+						#newsletter_form label {
+							margin-right: 5px;
+							width: 40px;
+						}
+						#newsletter_form input {
+							border: 1px solid #ACBACD;
+							font-size: 12px;
+							margin-top: 5px;
+							width: 170px;
+						}
+						#newsletter_form button {
+							background-color: #F3F4F5;
+							border: 1px solid #6484CF;
+							color: #5F5F5E;
+							font: bold 12px/7px "Myriad Pro";
+							margin-left: 13px;
+							margin-top: 10px;
+							padding: 4px 10px;
+							text-transform: uppercase;
+							-moz-box-shadow: 0 2px 4px #A4A6AB;
+							-webkit-box-shadow: 0 2px 4px #A4A6AB;
+							box-shadow: 0 2px 4px #A4A6AB;
+							vertical-align: middle;
+						}
+						.ie7 #newsletter_form button {
+							padding: 2px 10px;						
+						}
+footer {
+	background-color: #3C5879;
+	width: 100%;
+	min-height: 165px;
+	padding:0;
+	margin-top: 30px;
+}
+	#upper_footer_links_con {
+		background: url("../images/footer_top_bg.jpg") repeat-x scroll center top #E7E8EF;
+		height: 95px;
+	}
+	#lower_footer_links_con {
+		
+	}
 
 
 
