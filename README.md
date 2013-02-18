@@ -89,6 +89,11 @@ CSS properties
 ==============
 - https://developer.mozilla.org/en-US/docs/CSS/background-position
 
+CSS 3 Multiple Backgrounds
+===========================
+- http://www.css3.info/preview/multiple-backgrounds/
+- http://css-tricks.com/stacking-order-of-multiple-backgrounds/
+
 Clearing slices
 ===============
 - http://www.photoshopgurus.com/forum/general-photoshop-board/492-removing-slices.html

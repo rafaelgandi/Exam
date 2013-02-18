@@ -80,7 +80,8 @@ nav ul {
 .oldie #main_nav_con li a,
 .oldie #search,
 .oldie #newsletter_form h1,
-.oldie #newsletter_form button {
+.oldie #newsletter_form button,
+.oldie #main_con_wrapper {
 	position: relative;
 	behavior: url(css/PIE.htc);
 }		
@@ -168,12 +169,42 @@ header {
 		}
 			#main_con_wrapper {
 				width: 654px;
-				background: url("../images/x3.jpg") no-repeat scroll right top #fff;
-				min-height:1000px;				
+				background: url("../images/x3.jpg") no-repeat right top, 
+							url("../images/main_bottom_shadow.jpg") no-repeat center bottom #fff;
+				min-height: 585px;
+			}
+			.oldie #main_con_wrapper {
+				/* See: http://css3pie.com/forum/viewtopic.php?f=3&t=1309 */
+				-pie-background: url("images/x3.jpg") no-repeat right top,
+								 url("images/main_bottom_shadow.jpg") no-repeat center bottom #fff;					 
 			}
 				#main_content {
 					padding: 10px 20px;
+					font: normal 12px/16px "Lucida Sans Unicode";
+					color: #000;
 				}
+					#main_content h1 {
+						font: bold 18px/12px "Myriad Pro";
+						color: #173159;
+						margin-bottom: 20px;					
+					}
+					#article_con {
+						margin-top: 60px;
+					}
+						#article_con h2 {
+							font: bold 12px/16px "Lucida Sans Unicode";
+						}
+						.box {
+							width: 300px;
+						}
+						.box.separator {
+							background: url("../images/side_separator.jpg") repeat-y scroll left;							
+							padding-left: 15px;
+						}
+						#pest_quest_con a {
+							color: #183160;
+							text-decoration: none;
+						}
 			aside {
 				background: url("../images/x2.jpg") no-repeat scroll top #CFDBE9;
 				width: 313px;
@@ -279,14 +310,49 @@ footer {
 	min-height: 165px;
 	padding:0;
 	margin-top: 30px;
+	font: normal 12px/16px "Lucida Sans Unicode";
 }
 	#upper_footer_links_con {
 		background: url("../images/footer_top_bg.jpg") repeat-x scroll center top #E7E8EF;
 		height: 95px;
 	}
+		div.footer_center_con {
+			margin: 0 auto;
+			width: 970px;			
+			position: relative;
+		}
+		#footer_external_links_con {
+			padding: 20px;
+		}
+			a.footer_external_links {
+				padding-left: 7px;
+			}
+			.right_side {
+				position: absolute;
+				top: 10px;
+				right: 15px;
+			}
 	#lower_footer_links_con {
-		
+		margin: 0 auto;
+		width: 970px;			
+		position: relative;
+		padding-top: 5px;
+		padding-left: 28px;
 	}
+		#lower_footer_links_con a {
+			color: #fff;
+			text-decoration: none;
+		}
+		#site_by {
+			color: #18335E;
+			padding-top: 3px;
+		}
+		#copyright_text {
+			position: absolute;
+			color: #fff;
+			right: 10px;
+			top: 5px;
+		}
 
 
 
