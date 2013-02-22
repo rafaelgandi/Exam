@@ -1,0 +1,8 @@
+* dload exam boiler plate
+* dload jcpicker
+* open the following sites
+	- http://css3pie.com/documentation/supported-css3-features/
+	- http://cssprefixer.appspot.com/
+	- http://www.w3schools.com/tags/default.asp
+* make sure notepad++ has autocompletion.
+* ...start coding!	
