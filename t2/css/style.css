@@ -1,0 +1,418 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;	
+	/* For IE6 and IE7  See: https://github.com/Schepp/box-sizing-polyfill*/
+	*behavior: url(css/boxsizing.htc); 
+}
+a:hover, 
+a:active,
+a:visited,
+a:link { outline: none; }
+.hide { display: none; }
+.show { display : block; }
+.visible { visibility : visible; }
+.invisible { visibility : hidden;}
+.redb {border: 1px solid red;}
+.u {text-decoration: underline;}
+.b {font-weight: bold;}
+.i {font-style: italic;}
+.glow {
+	-webkit-box-shadow: 0 0 10px rgba(50, 50, 50, 0.8);
+	box-shadow: 0 0 10px rgba(50, 50, 50, 0.5);	
+}
+.valign-top {vertical-align: top;}
+.valign-middle {vertical-align: middle;}
+.valign-bottom {vertical-align: bottom;}
+.align-r {text-align: right;}
+.align-l {text-align: left;}
+.align-j {text-align: justify;}
+.align-c {text-align: center;}
+.away {
+	position: absolute;
+	top: -1000px;
+	left: -1000px;
+}
+.inline {display: inline;}
+.block {display: block;}
+.clear {clear:both; font-size:0; height:0px; line-height:0;}
+.left {float: left !important;}
+.right {float: right !important;}
+.inline_block {display: inline-block !important;}
+.roundies5 {-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;}
+.roundies10 {-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px;}
+.opacity50 {opacity: 0.5; filter: alpha(opacity=50);}
+.opacity0 {opacity: 0; filter: alpha(opacity=0);}
+
+/************ end of DEV STYLES ***********/
+
+body {
+	font-family: arial;
+	margin:0;
+	padding:0;
+	position: relative;
+	background: url("../images/bottom_blue_bg.gif") repeat-x bottom #fff;
+}
+#top_bg_left, #top_bg_right {
+	position: absolute;
+	width: 50%;
+	height: 395px;
+	top:0;
+	z-index:1;
+}
+#top_bg_left {
+	background: url("../images/left_continuos2.gif") repeat-x;
+	left:0;
+	z-index:10
+}
+#top_bg_right {
+	background: url("../images/right_continuos2.gif") repeat-x;
+	right:0;
+	width:100%
+}
+#bottom_blue_line {	
+	z-index:1;
+	background: url("../images/bottom_blue_bg.gif") repeat-x 0 bottom #FFF;  
+}
+#wrapper {
+	margin: 0 auto;
+	width: 997px;
+	padding:0;
+	min-height: 600px;
+	z-index:10;
+	position:relative;	
+	background-color: #fff;
+	background: url("../images/header_bg2.jpg") no-repeat scroll 0 0 #0078C1;
+}
+#wrapper header {
+	position: relative;
+	height: 197px;
+	margin:0;
+}
+	#wrapper header #top_nav {
+		font-size: 11px;
+		color: #fff;
+		padding-top: 68px;
+	}
+	.ie7 #wrapper header #top_nav {
+		padding-top: 78px;
+	}
+		#wrapper header #top_nav li ul {
+			list-style: circle !important;
+		}
+			#wrapper header #top_nav li {
+				float: left;
+				padding-right: 30px;
+			}
+				#wrapper header #top_nav li a {
+					color: #fff;
+					text-decoration: none;
+				}
+	#wrapper header #top_contact_num {
+		font-size: 16px;
+		font-family: helvetica;
+		font-weight: bold;
+		color: #fff;
+		text-transform: uppercase;
+		text-align: right;
+		padding-top:30px;
+		padding-right: 22px;
+		font-style: italic;
+	}
+		#wrapper header #top_contact_num span {
+			font-size: 20px;
+			color: #F9EA22;
+		}
+#wrapper #middle_con {
+	position: relative;
+	padding: 0px 15px;
+	background-color: #fff;
+	border-radius: 10px 10px 0 0;
+}
+.oldie #wrapper #middle_con {
+	behavior: url(css/PIE.htc);
+}
+	#wrapper #middle_con nav {
+		font-size: 11px;
+		line-height: 14px;
+		color: #fff;
+		padding:0;
+		background: url("../images/nav_bg2.jpg") no-repeat center 0;
+		height: 42px;
+	}
+		#wrapper #middle_con nav ul {
+			list-style: none;
+			margin:0;
+			padding:0;
+			width: 100%;
+		}
+			#wrapper #middle_con nav ul li {
+				float: left;			
+				margin:0;
+				padding:0;
+				background: url("../images/nav_separator.gif") repeat-y 0 0;
+				padding-left: 2px;
+			}
+			#wrapper #middle_con nav ul li.first {				
+				padding-left: 5px;
+				background-image: none;	
+			}				
+				#wrapper #middle_con nav ul li a {
+					color: #fff;
+					text-decoration:none;
+					display: block;
+					padding: 14px 10px;				
+				}
+				#wrapper #middle_con nav ul li a:hover {
+					text-decoration:none;
+					background: url("../images/selected_bg2.gif") repeat-x 0 0;				
+				}
+	#wrapper #middle_con #grid_wrapper {
+		position: relative;
+	}
+		#wrapper #middle_con #grid_wrapper #main_contents {
+			width: 689px;
+			padding: 5px;
+			min-height: 500px;
+			padding-top: 15px;
+		}
+			#wrapper #middle_con #grid_wrapper #main_contents #banner_con {
+				padding-left: 171px;
+				position: relative;	
+				margin-bottom: 40px;	
+			}
+				#wrapper #middle_con #grid_wrapper #main_contents #banner_con #side_buttons {
+					position: absolute;
+					top:0;
+					left:0;	
+				}
+					#wrapper #middle_con #grid_wrapper #main_contents #banner_con #side_buttons button {
+						background: url("../images/button_left_bg.jpg") repeat-x 0 0 transparent;
+						border: 1px solid #2F72BD;
+						width: 161px;
+						height: 56px;
+						margin-bottom: 5px;
+						text-transform: uppercase;
+						color: #2C6AAE;
+						padding: 20px 5px 20px 15px;
+						font-size: 16px;
+						line-height: 18px;
+						font-weight: bold;
+						display: block;
+						border-radius: 6px;
+						text-align: left;
+						position: relative;
+					}
+					.oldie #wrapper #middle_con #grid_wrapper #main_contents #banner_con #side_buttons button {
+						behavior: url(css/PIE.htc);
+					}
+						#wrapper #middle_con #grid_wrapper #main_contents #banner_con #side_buttons button img {
+							position: absolute;
+							top: 20px;
+							right: 5px;
+						}
+			#wrapper #middle_con #grid_wrapper #main_contents h1 {
+				font-size: 20px;
+				line-height: 18px;
+				font-weight: bold;
+				color: #3073BF;	
+				margin-bottom: 30px;
+			}
+			#wrapper #middle_con #grid_wrapper #main_contents h2 {
+				font-size: 18px;
+				line-height: 18px;
+				font-weight: bold;
+				color: #9C9C9C;	
+				margin-bottom: 30px;
+			}
+			#wrapper #middle_con #grid_wrapper #main_contents p {
+				font-size: 12px;
+				line-height: 18px;				
+				color: #535252;		
+			}
+			#wrapper #middle_con #grid_wrapper #main_contents .big_list {
+				font-size: 12px;
+				line-height: 18px;				
+				color: #535252;	
+				list-style-image: url("../images/big_list_bullet.gif");
+			}
+				#wrapper #middle_con #grid_wrapper #main_contents .big_list li {
+					padding: 7px;
+				}
+		#wrapper #middle_con #grid_wrapper aside {
+			width: 276px;
+			padding-top: 15px;
+		}
+			#wrapper #middle_con #grid_wrapper aside img.cta_img_right {
+				margin-bottom: 10px;
+				position: relative;
+				display: block;
+			}
+			#wrapper #middle_con #grid_wrapper aside #latest_news_con {
+				background-color: #F1F1F1;
+				border-radius: 10px;
+				position: relative;
+			}
+			.oldie #wrapper #middle_con #grid_wrapper aside #latest_news_con {
+				behavior: url(css/PIE.htc);
+			}
+				#wrapper #middle_con #grid_wrapper aside #latest_news_con h2 {
+					margin:0;
+					padding: 12px;
+					color: #fff;
+					font-family: helvetica;
+					font-size: 16px;
+					font-style: italic;
+					font-weight: bold;
+					text-transform: uppercase;
+					border-radius: 10px 10px 0 0;
+					background: url("../images/latest_new_hdr_shadow.gif") repeat-x 0 bottom #215080;
+					padding-bottom: 25px;
+				}
+				.oldie #wrapper #middle_con #grid_wrapper aside #latest_news_con h2 {
+					position: relative;
+					behavior: url(css/PIE.htc);
+				}
+					#wrapper #middle_con #grid_wrapper aside #latest_news_con h2 span {
+						color:#F9EA21;
+					}
+				#wrapper #middle_con #grid_wrapper aside #latest_news_con article {
+					width: 100%;
+					padding: 20px;
+				}
+					#wrapper #middle_con #grid_wrapper aside #latest_news_con article time {
+						font-size: 14px;
+						line-height: 14px;
+						font-weight: bold;
+					}
+					#wrapper #middle_con #grid_wrapper aside #latest_news_con article p {
+						font-size: 11px;
+						line-height: 14px;
+						color: #6E6E6E;
+						margin-top: 3px;
+						margin-bottom: 10px;
+					}
+					#wrapper #middle_con #grid_wrapper aside #latest_news_con article a.read_more_link {
+						font-size: 10px;
+						line-height: 14px;
+						font-family: "Myriad Pro";
+						color: #fff;
+						position: relative;	
+						background: url("../images/read_more_button_bg.jpg") repeat-x 0 0 transparent;
+						border-radius: 5px;
+						padding: 5px;
+						text-decoration: none;
+						text-transform: uppercase;
+						padding: 4px 32px 5px 15px;
+					}
+					.oldie #wrapper #middle_con #grid_wrapper aside #latest_news_con article a.read_more_link {
+						position: relative;
+						behavior: url(css/PIE.htc);
+					}
+						#wrapper #middle_con #grid_wrapper aside #latest_news_con article a.read_more_link img {
+							position: absolute;
+							top:0;
+							right:8px;
+						}
+	/* todo: place footer outside of #middle_con because of bottom space issue in IE */
+	#wrapper #middle_shadow {					
+		padding: 0;		
+		margin:0;
+		position: relative;
+		border-radius: 10px 10px 0 0;
+		-webkit-box-shadow: -1px 0px 29px rgba(50, 50, 50, 0.92);
+		-moz-box-shadow:    -1px 0px 29px rgba(50, 50, 50, 0.92);
+		box-shadow:         -1px 0px 29px rgba(50, 50, 50, 0.92);
+		border-bottom:0;
+	}
+	.oldie #wrapper #middle_shadow {
+		behavior: url(css/PIE.htc);
+	}
+	
+	#wrapper footer {			
+		background-color: #F1F1F1;
+		padding: 0px 15px;
+		min-height: 193px;	
+		width: 100%;
+		font-size: 12px;
+		color: #4C4C4C;
+		margin:0;
+	}
+	.ie7 #wrapper footer {
+		width: 997px;
+	}	
+		#wrapper footer #footer_images_con {			
+			position: relative;
+			padding: 20px;
+			padding-left: 255px;
+			min-height: 120px;
+		}
+			#wrapper footer #footer_images_con address {			
+				position: absolute;
+				top: 20px;
+				left: 22px;
+				width: 177px;
+				font-style: normal;
+			}
+				#wrapper footer #footer_images_con address p {			
+					margin:0;
+					margin-bottom: 15px;
+				}
+			#wrapper footer #footer_images_con ul {			
+				list-style: none;
+				padding:0;
+				margin:20px 0 0;
+			}
+				#wrapper footer #footer_images_con ul li {			
+					float: left;
+					padding-left: 19px;
+				}
+		#wrapper footer #bottom_footer_con {			
+			position: relative;
+			border-top: 5px solid #A09EA3;
+			margin-top: 10px;
+			font-size: 11px;
+			padding: 15px 5px;
+			/* border: 1px solid red; */
+		}
+			#wrapper footer #bottom_footer_con p {			
+				margin:0;				
+			}
+			#wrapper footer #bottom_footer_con #copyright {			
+				position: absolute;
+				top: 15px;
+				right: 0;	
+			}
+				#wrapper footer #bottom_footer_con p a {			
+					color: #4C4C4C;	
+					text-decoration: none;
+					margin: auto 4px;
+				}
+				#wrapper footer #bottom_footer_con p a:hover {							
+					text-decoration: underline;
+				}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	

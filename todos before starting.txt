@@ -1,8 +1,24 @@
-* dload exam boiler plate
-* dload jcpicker
-* open the following sites
+* Dload exam boiler plate.
+* Remove the .gitignore file.
+* Dload jcpicker.
+* Open the following sites.
 	- http://css3pie.com/documentation/supported-css3-features/
 	- http://cssprefixer.appspot.com/
 	- http://www.w3schools.com/tags/default.asp
-* make sure notepad++ has autocompletion.
+* Open photoshop cs5
+	- follow the screenshot setup
+	- Window(main menu)
+		 - Adjustments
+		 - Color
+		 - Info
+		 - Layers
+		 - Character
+	- Needed tools shortcuts
+		* Rectangular marquee tool - M
+		* Move tool(black arrow) - V
+		* Slice tools - C
+		* Horizontal type tool - T
+* If their is not NPP download it from Exam git.		 
+* Make sure notepad++ has autocompletion.
+* Change the title of the index.html file.
 * ...start coding!	

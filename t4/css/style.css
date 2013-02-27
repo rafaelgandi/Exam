@@ -1,0 +1,371 @@
+/* LM: 01-17-2013 */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;	
+	/* For IE6 and IE7  See: https://github.com/Schepp/box-sizing-polyfill */
+	*behavior: url(css/boxsizing.htc); 
+}
+a:hover, 
+a:active,
+a:visited,
+a:link { outline: none; }
+.hide { display: none; }
+.show { display : block; }
+.visible { visibility : visible; }
+.invisible { visibility : hidden;}
+.redb {border: 1px solid red;}
+.u {text-decoration: underline;}
+.b {font-weight: bold;}
+.i {font-style: italic;}
+.glow {
+	-webkit-box-shadow: 0 0 10px rgba(50, 50, 50, 0.8);
+	box-shadow: 0 0 10px rgba(50, 50, 50, 0.5);	
+}
+.valign-top {vertical-align: top;}
+.valign-middle {vertical-align: middle;}
+.valign-bottom {vertical-align: bottom;}
+.align-r {text-align: right;}
+.align-l {text-align: left;}
+.align-j {text-align: justify;}
+.align-c {text-align: center;}
+.away {
+	position: absolute;
+	top: -1000px;
+	left: -1000px;
+}
+.inline {display: inline;}
+.block {display: block;}
+.clear, .clr {clear:both; font-size:0; height:0px; line-height:0;}
+.left {float: left !important;}
+.right {float: right !important;}
+.inline_block {
+	display: inline-block;
+	vertical-align: top;
+}
+.ie6 .inline_block,
+.ie7 .inline_block {
+	zoom:1;
+	display: inline;
+}
+.roundies5 {-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;}
+.roundies10 {-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px;}
+.opacity50 {opacity: 0.5; filter: alpha(opacity=50);}
+.opacity0 {opacity: 0; filter: alpha(opacity=0);}
+
+/************ end of DEV STYLES ***********/
+
+/* IE notice box styles */
+.oldie #ie_notice {
+	position: absolute; top: 0px; left: 0px;
+	width: 100%; display: block; font-size: 30px; font-weight: bold;
+	background-color: yellow; z-index: 100; text-align: center; padding: 20px;
+	border: 2px solid #ccc;
+}
+body {
+	font-family: arial;
+	margin:0;
+	padding:0;
+	position: relative;
+	background-color: #CFDBE9;
+	overflow-x: hidden; /* Needed for IE, so that the horizontal scrollbar won't show if box-shadow is used. */
+	color: #393A3A;
+}
+a, a:active, a:visited, a:link {}
+a:hover {}
+nav ul {
+	margin:0;
+	padding:0;			
+	list-style: none;
+}
+	nav li { float: left; }
+	nav a { text-decoration: none; }
+
+/* Old IE(6,7,8) css pie hack. */
+.oldie body,
+.oldie header,
+.oldie #main_nav_con li a,
+.oldie #search,
+.oldie #newsletter_form h1,
+.oldie #newsletter_form button,
+.oldie #main_con_wrapper {
+	position: relative;
+	behavior: url(css/PIE.htc);
+}		
+header {
+	border-top: 5px solid #3C5879;
+	width: 100%;
+	background: url("../images/header_gradient_bg.jpg") repeat-x scroll center bottom #EDEEF3;
+	min-height: 274px;
+	-webkit-box-shadow:  0px 20px 30px 5px #8C93A3;
+	-moz-box-shadow:  0px 20px 30px 5px #8C93A3;
+    box-shadow:  0px 20px 30px 5px #8C93A3;
+}
+	#banner_con,  #wrapper {
+		margin: 0 auto;
+		width: 970px;		
+	}
+		#banner {
+			background: url("../images/banner_jud.png") no-repeat scroll center top;
+			min-height: 228px;
+			position: relative;
+			padding: 25px 40px;
+		}
+		.ie8 #banner {
+			min-height: 200px;
+		}
+			#logo {
+				border:0;
+			}
+			#tel {
+				position: absolute;
+				right: 28px;
+				top: 15px;
+			}
+		#header_below_shadow {
+			background: url("../images/banner_below_shadow.jpg") no-repeat scroll center transparent;
+			height: 70px;
+		}
+			#slogan {
+				background-color: #3C5879;
+				color: #FFFFFF;
+				font: 21.8px "Myriad Pro";
+				margin: 0 5px;
+				padding: 5px;
+				text-align: center;
+				text-transform: uppercase;
+			}
+	#wrapper {
+		
+	}
+		#main_nav_con {
+			background: url("../images/x1.jpg") no-repeat scroll center bottom transparent;
+			min-height: 76px;
+			padding-left: 31px;
+			width: 989px;
+		}
+			#main_nav_con li ul {
+				display: block;
+				margin: 0 auto;
+			}
+			#main_nav_con li {				
+				margin: 3px 2px 0 0;
+			}			
+				#main_nav_con li a {
+					background: url("../images/menu_off.png") repeat-x scroll center #17315C;
+					display: block;
+					color: #F1E424;
+					padding: 8px 20px;
+					text-decoration: none;
+					font: bold 18px "Myriad Pro";
+					line-height: 20.83px;					
+					-webkit-border-radius: 0px 0px 8px 8px;
+					border-radius: 0px 0px 8px 8px;
+					box-shadow:0px 3px 22px #333;
+				}				
+				#main_nav_con li a:hover,
+				#main_nav_con li a.on {
+					background: url("../images/menu_on.png") repeat-x scroll center #F1E424;
+					color: #17315C;
+				}
+		#main_content_con {
+			margin: 0 auto;			
+			width: 967px;
+			padding:0;
+			position: relative;
+		}
+			#main_con_wrapper {
+				width: 654px;
+				background: url("../images/x3.jpg") no-repeat right top, 
+							url("../images/main_bottom_shadow.jpg") no-repeat center bottom #fff;
+				min-height: 585px;
+			}
+			.oldie #main_con_wrapper {
+				/* See: http://css3pie.com/forum/viewtopic.php?f=3&t=1309 */
+				-pie-background: url("images/x3.jpg") no-repeat right top,
+								 url("images/main_bottom_shadow.jpg") no-repeat center bottom #fff;					 
+			}
+				#main_content {
+					padding: 10px 20px;
+					font: normal 12px/16px "Lucida Sans Unicode";
+					color: #000;
+				}
+					#main_content h1 {
+						font: bold 18px/12px "Myriad Pro";
+						color: #173159;
+						margin-bottom: 20px;					
+					}
+					#article_con {
+						margin-top: 60px;
+					}
+						#article_con h2 {
+							font: bold 12px/16px "Lucida Sans Unicode";
+						}
+						.box {
+							width: 300px;
+						}
+						.box.separator {
+							background: url("../images/side_separator.jpg") repeat-y scroll left;							
+							padding-left: 15px;
+						}
+						#pest_quest_con a {
+							color: #183160;
+							text-decoration: none;
+						}
+			aside {
+				background: url("../images/x2.jpg") no-repeat scroll top #CFDBE9;
+				width: 313px;
+				min-height:571px;
+				padding: 14px 20px 20px 37px;
+			}
+				#search {
+					width: 227px;					
+					margin-bottom: 10px;
+					background: url("../images/search_botton_bg.png") repeat-x scroll center #D9E0EA;
+					border: 1px solid #163058;
+					border-radius: 5px;
+					display: block;
+					position: relative;
+					color: #161616;
+					font: bold italic 14px "Myriad Pro";
+					line-height: 7px;
+					padding: 10px;
+					vertical-align: middle;
+				}
+					#search img {
+						position: absolute;
+						top: -14px;
+						left: 10px;
+					}
+					.ie8 #search img {
+						z-index:20;
+					}
+				a.sidebar_links {
+					background: url("../images/sidebar_button_bg.jpg") repeat-x scroll center transparent;
+					color: #EFE323;
+					display: block;
+					font: 14px/7px "Myriad Pro";
+					padding: 23px 17px 17px;
+					text-align: center;
+					text-decoration: none;
+					vertical-align: middle;
+					width: 226px;
+					height: 43px;
+				}
+				#natgeo_tv {
+					margin-top: 33px;
+				}
+				#newsletter_form {
+					display: block;
+					width: 239px;
+					height: 212px;
+					background: url("../images/form_box_bg.jpg") repeat-x scroll center top transparent;
+					padding: 10px;
+					font: normal 14px/7px "Myriad Pro";
+					margin-top: 30px;
+					margin-left: 5px; 
+				}
+					#newsletter_form h1 {
+						font-weight: normal;
+						font-size: 14px;
+						color: #EFE323;
+						background-color: #18335E;
+						padding: 11px;
+						text-align: center;
+						margin-bottom: 8px;
+						-moz-box-shadow: 1px 4px 4px #333;
+						-webkit-box-shadow: 1px 4px 4px #333;
+						box-shadow: 1px 4px 4px #333
+					}
+					#newsletter_form table {
+						width: 100%;
+					}
+						#newsletter_form table img {
+							margin-top: 8px;
+							margin-left: 10px;
+						}
+						#newsletter_form label {
+							margin-right: 5px;
+							width: 40px;
+						}
+						#newsletter_form input {
+							border: 1px solid #ACBACD;
+							font-size: 12px;
+							margin-top: 5px;
+							width: 170px;
+						}
+						#newsletter_form button {
+							background-color: #F3F4F5;
+							border: 1px solid #6484CF;
+							color: #5F5F5E;
+							font: bold 12px/7px "Myriad Pro";
+							margin-left: 13px;
+							margin-top: 10px;
+							padding: 4px 10px;
+							text-transform: uppercase;
+							-moz-box-shadow: 0 2px 4px #A4A6AB;
+							-webkit-box-shadow: 0 2px 4px #A4A6AB;
+							box-shadow: 0 2px 4px #A4A6AB;
+							vertical-align: middle;
+						}
+						.ie7 #newsletter_form button {
+							padding: 2px 10px;						
+						}
+footer {
+	background-color: #3C5879;
+	width: 100%;
+	min-height: 165px;
+	padding:0;
+	margin-top: 30px;
+	font: normal 12px/16px "Lucida Sans Unicode";
+}
+	#upper_footer_links_con {
+		background: url("../images/footer_top_bg.jpg") repeat-x scroll center top #E7E8EF;
+		height: 95px;
+	}
+		div.footer_center_con {
+			margin: 0 auto;
+			width: 970px;			
+			position: relative;
+		}
+		#footer_external_links_con {
+			padding: 20px;
+		}
+			a.footer_external_links {
+				padding-left: 7px;
+			}
+			.right_side {
+				position: absolute;
+				top: 10px;
+				right: 15px;
+			}
+	#lower_footer_links_con {
+		margin: 0 auto;
+		width: 970px;			
+		position: relative;
+		padding-top: 5px;
+		padding-left: 28px;
+	}
+		#lower_footer_links_con a {
+			color: #fff;
+			text-decoration: none;
+		}
+		#site_by {
+			color: #18335E;
+			padding-top: 3px;
+		}
+		#copyright_text {
+			position: absolute;
+			color: #fff;
+			right: 10px;
+			top: 5px;
+		}
+
+
+
+	
+
+
+
+	
