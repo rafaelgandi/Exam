@@ -157,3 +157,7 @@ Lipsum
 		et malesuada fames ac turpis egestas.
 	</code>
 </pre>
+
+Different kind of slicing
+=========================
+- http://macrabbit.com/slicy/
