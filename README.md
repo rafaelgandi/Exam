@@ -68,6 +68,10 @@ Inline-block
 ============
 - http://blog.mozilla.org/webdev/2009/02/20/cross-browser-inline-block/
 
+Css multiple bg stacking
+=========================
+- http://css-tricks.com/stacking-order-of-multiple-backgrounds/
+
 Css box-sizing
 ===============
 - http://paulirish.com/2012/box-sizing-border-box-ftw/
@@ -120,26 +124,36 @@ PS Shortcuts
 ============
 - http://www.hongkiat.com/blog/keyboard-shortcut-for-photoshop-cs2-toolsbox/
 
+PS how to hide guides
+=====================
+<p>
+	Hide all the guides by selecting "View" from the top menu bar, followed by "Show" and "Guides." 
+	This hides all the guides.
+	See: http://www.ehow.com/how_2160457_delete-hide-guides-adobe-photoshop.html
+</p>
+
 Lipsum
 =======
-<code>
-	Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor 
-	quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean 
-	ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. 
-	Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt 
-	condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. 
-	Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu 
-	erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
-	
-	Nam pretium, augue vel placerat vehicula, leo nisl tempus felis, gravida iaculis velit odio sed turpis. 
-	Sed egestas venenatis condimentum. Nullam ultrices diam nec felis facilisis in pulvinar elit laoreet. 
-	Nunc quis velit lectus. Donec eu libero id velit tincidunt consequat. Fusce ac dolor lorem, placerat 
-	sollicitudin quam. Praesent accumsan risus ac arcu sodales rutrum. Donec eu leo sed lectus interdum aliquam. 
-	Nunc iaculis, mauris in varius feugiat, massa nibh egestas risus, sed aliquam augue sapien ut dolor. 
-	Phasellus eget est vel mi facilisis elementum quis non erat. Aliquam ac nisi arcu, a aliquam metus. 
-	Suspendisse nec elit sed velit ultricies auctor. Fusce justo nunc, tincidunt quis vulputate vitae, iaculis 
-	vitae ante. In hac habitasse platea dictumst. Pellentesque aliquet tortor id ipsum euismod sed dapibus 
-	lorem iaculis. Aliquam varius eleifend purus, iaculis lacinia enim viverra sit amet. Vivamus facilisis 
-	augue non nisi malesuada ut rutrum erat semper. Pellentesque habitant morbi tristique senectus et netus 
-	et malesuada fames ac turpis egestas.
-</code>
+<pre>
+	<code>
+		Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor 
+		quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean 
+		ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. 
+		Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt 
+		condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. 
+		Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu 
+		erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+		
+		Nam pretium, augue vel placerat vehicula, leo nisl tempus felis, gravida iaculis velit odio sed turpis. 
+		Sed egestas venenatis condimentum. Nullam ultrices diam nec felis facilisis in pulvinar elit laoreet. 
+		Nunc quis velit lectus. Donec eu libero id velit tincidunt consequat. Fusce ac dolor lorem, placerat 
+		sollicitudin quam. Praesent accumsan risus ac arcu sodales rutrum. Donec eu leo sed lectus interdum aliquam. 
+		Nunc iaculis, mauris in varius feugiat, massa nibh egestas risus, sed aliquam augue sapien ut dolor. 
+		Phasellus eget est vel mi facilisis elementum quis non erat. Aliquam ac nisi arcu, a aliquam metus. 
+		Suspendisse nec elit sed velit ultricies auctor. Fusce justo nunc, tincidunt quis vulputate vitae, iaculis 
+		vitae ante. In hac habitasse platea dictumst. Pellentesque aliquet tortor id ipsum euismod sed dapibus 
+		lorem iaculis. Aliquam varius eleifend purus, iaculis lacinia enim viverra sit amet. Vivamus facilisis 
+		augue non nisi malesuada ut rutrum erat semper. Pellentesque habitant morbi tristique senectus et netus 
+		et malesuada fames ac turpis egestas.
+	</code>
+</pre>

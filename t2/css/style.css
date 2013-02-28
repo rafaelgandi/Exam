@@ -53,6 +53,7 @@ body {
 	padding:0;
 	position: relative;
 	background: url("../images/bottom_blue_bg.gif") repeat-x bottom #fff;
+	overflow-x: hidden;
 }
 #top_bg_left, #top_bg_right {
 	position: absolute;

@@ -236,7 +236,7 @@ header {
 					#search img {
 						position: absolute;
 						top: -14px;
-						left: 10px;
+						left: 10px;						
 					}
 					.ie8 #search img {
 						z-index:20;

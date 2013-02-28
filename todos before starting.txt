@@ -1,5 +1,5 @@
 * Dload exam boiler plate.
-* Remove the .gitignore file.
+* Remove the .gitignore file and .git folder.
 * Dload jcpicker.
 * Open the following sites.
 	- http://css3pie.com/documentation/supported-css3-features/
