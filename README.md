@@ -132,6 +132,14 @@ PS how to hide guides
 	See: http://www.ehow.com/how_2160457_delete-hide-guides-adobe-photoshop.html
 </p>
 
+
+Open the following sites upon starting
+=======================================
+- http://css3pie.com/documentation/supported-css3-features/
+- http://cssprefixer.appspot.com/
+- http://www.w3schools.com/tags/default.asp
+
+
 Lipsum
 =======
 <pre>
